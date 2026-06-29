@@ -61,7 +61,7 @@ export function Hero() {
               ))}
             </div>
             <p className="text-xs sm:text-sm font-semibold text-muted-foreground">
-              Loved by <span className="text-foreground font-extrabold">5,000+</span> hungry Nashikites
+              Loved by <span className="text-foreground font-extrabold">1,000+</span> hungry Nashikars
             </p>
           </div>
         </div>
@@ -70,7 +70,7 @@ export function Hero() {
         <div className="relative mx-auto max-w-md md:max-w-none w-full">
           {/* Circular glow background */}
           <div className="absolute -inset-4 -z-10 rounded-full bg-gradient-to-tr from-primary/30 to-accent/20 blur-3xl animate-pulse-slow" />
-          
+
           {/* Main Burger Container with Bobbing/Floating Animation */}
           <div className="relative animate-float p-4">
             <div className="overflow-hidden rounded-[2.5rem] border-[6px] border-card shadow-[0_25px_50px_-12px_rgba(0,0,0,0.15)] transition-all duration-500 hover:rotate-1 hover:scale-[1.02]">
@@ -87,7 +87,7 @@ export function Hero() {
             {/* Premium Floater: Pricing Badge */}
             <div className="absolute -bottom-2 left-8 flex items-center gap-3.5 rounded-2xl border border-border/80 bg-card/90 backdrop-blur-md px-5 py-3.5 shadow-xl animate-float-delayed">
               <span className="font-heading text-3xl font-extrabold text-primary">
-                ₹90
+                ₹40
               </span>
               <span className="text-xs font-bold leading-tight text-muted-foreground">
                 Burgers
